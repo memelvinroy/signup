@@ -1,0 +1,133 @@
+.main{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.bg-img{
+    background-image: url('./images/halie-west-25xggax4bSA-unsplash.jpg');
+width: 35%;
+height: 100vh;
+position: relative;
+}
+.logo{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(26,25,25,0.5);
+    align-items: center;
+    justify-content: center;
+    color: #f0f8ff;
+    height: 200px;
+    margin-top: 100px;
+}
+.logo img{
+position: absolute;
+width: 110px;
+margin-left: 100px;
+margin-top: 0px;
+margin-right: 300px;
+}
+.logo p{
+    color: #f0f8ff;
+    font-family: myFirstFont;
+    font-size: xx-large;
+    margin-top: 70px;
+    font-size: 50px;
+    padding: 100px;
+    
+
+
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(./images/Norse-Bold\ \(1\).otf);
+  }
+
+.body .heading{
+    width: 60vw;
+    height: 30%;
+    ;
+}
+.heading{
+    background-color: #d3d0d0;
+    width: 100%;
+    padding: 70px;
+    font-weight: 300;
+    font-style: italic;
+  
+}
+
+.form1 h2{
+    width: 100%;
+    height: 50%;
+    padding-left: 40px;
+    padding-top: 30px;
+    
+}
+.name{
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-family: 'Tilt Neon',sans-serif;
+ 
+   
+
+}
+.name input{
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+   border: 1px solid;
+   cursor: pointer;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    }
+
+    input:hover{
+        color:  green;
+    }
+
+.button {
+    padding-left: 40px;
+    padding-top: -10px;
+    border-radius: 5px;
+   
+}
+.button button{
+    height: 50px;
+    border-radius: 5px;
+    width: 150px;
+    background-color: rgb(58, 90, 58) 
+    ;
+    border: none;
+    cursor: pointer;
+    color: #f0f8ff;
+    font-size: medium;
+
+}
+.footer{
+    padding: 40px;
+    padding-top: 0px;
+}
+.footer a{
+    text-decoration: none;
+    font-style: 'sans-seriff';
+    color: rgb(45, 87, 45);
+}
+.main2{
+   
+    box-shadow: 0px 2px 7px  1px rgb(58, 58, 58);
+    margin-top: -20px;
+    margin-bottom: 30px;
+    height: 350px;
+    
+    
+    
+    
+}
+input:invalid{
+   border-color: red;
+}
